@@ -1,5 +1,5 @@
 ul{
-  margin-left: 150px;
+  margin-left: 190px;
   list-style-type: none;
   text-align: center;
 }
@@ -23,44 +23,75 @@ li.link:hover{
   background-color: gray;
 }
 h1{
-  background-color: blue;
+  background-color: cyan;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
 }
 img#a{
   width: 200px;
+  margin-left: 150px;
 }
 img#b{
   width: 200px;
-  margin: 0% 0% 0% 0%;
 }
 div#rij{
-  display: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
 }
-.colom {
+div#pagina{
+  float: none;
+}
+div#colom {
   float: left;
   padding: 5px;
 }
+div#biografie{
+  background-color: lightgray;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 20px;
+}
 iframe{
   border: groove gray 10px;
-  margin: 15px 0px 0px 0px;
+  margin-left: 475px;
+  margin-top: 20px;
 }
-body{
-  background-color: lightblue;
+iframe#kaart{
+  margin-right: 120px;
+  margin-top: 50px;
 }
 p{
   color: black;
-  background-color: aqua;
+  background-color: lightgray;
+  width: 65%;
+  margin: auto;
+  margin-top: 25px;
+}
+p#center{
+  text-align: center;
+  padding:
 }
 img.c{
   height: 300px;
 }
-a.contact{
+a#contact{
   text-decoration: underline;
   color: black;
-  background-color: aqua;
+  margin-left: 270px;
 }
-a.contact:hover{
+a#contact:hover{
   background-color: aquamarine;
 }
-a.contact:visited{
+a#contact:visited{
   background-color: aquamarine;
+}
+p#biografie{
+  background-color: white;
+  color: black;
+}
+div#bekendDoor{
+  margin-left: 230px;
 }
